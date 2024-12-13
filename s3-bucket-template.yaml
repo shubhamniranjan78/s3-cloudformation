@@ -6,4 +6,12 @@ Resources:
       BucketName: "my-unique-bucket-name"
       VersioningConfiguration:
         Status: Enabled
-
+[200~AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+    MyS3Bucket:
+          Type: "AWS::S3::Bucket"
+              Properties:
+                      BucketName: "my-unique-bucket-name"
+                            VersioningConfiguration:
+                                      Status: Enabled
+                                      
